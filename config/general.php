@@ -45,4 +45,14 @@ return [
         // Set this to `false` to prevent administrative changes from being made on production
         'allowAdminChanges' => true,
     ],
+
+    'cacti-2.test'=> array(
+      'aliases' => array(
+        'baseUrl'  => 'http://cacti-2.test/',
+      ),
+      'devMode' => true,
+      'siteUrl' => array(
+        'de' => 'http://cacti-2.test/',
+      )
+    ),
 ];
